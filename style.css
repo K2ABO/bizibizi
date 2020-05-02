@@ -1,0 +1,32 @@
+
+@media  only screen and (max-width:880px){
+    .panels{
+        display: flex;
+        flex-direction: column;
+     } 
+
+}
+
+body{
+    background-image: url(images/bckg.jpg);
+    background-size:auto;
+    margin: 0;
+    padding: 0;
+}
+
+.icon{
+    display:flex;
+    justify-content: center;
+    align-self:center;
+    position: sticky;
+    margin-top: 179px;
+}
+
+.panels{
+    display: flex;
+    margin-bottom: -20px;
+ }
+
+#testimonial{
+    margin:-15px;
+}
